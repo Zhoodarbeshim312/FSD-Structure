@@ -1,3 +1,4 @@
+"use client";
 import Admin from "./form/admin/Admin";
 const FormPage = () => {
   return (

@@ -1,3 +1,4 @@
+"use client";
 import Hero from "./home/hero/Hero";
 const HomePage = () => {
   return (
