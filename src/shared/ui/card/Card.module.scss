@@ -1,0 +1,34 @@
+.card {
+  position: relative;
+  padding: 15px;
+  border-radius: 10px;
+  max-width: 500px;
+  width: 100%;
+  box-shadow: 0 0 10px 1px silver;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 500px;
+  .change {
+    right: 10px;
+    top: 10px;
+    position: absolute;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: none;
+    color: limegreen;
+  }
+  .delete {
+    left: 10px;
+    top: 10px;
+    position: absolute;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: none;
+    color: red;
+  }
+}
