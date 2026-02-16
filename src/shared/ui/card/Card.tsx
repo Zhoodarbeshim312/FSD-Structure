@@ -1,3 +1,4 @@
+"use client";
 import { FC } from "react";
 import scss from "./Card.module.scss";
 import { MdOutlineChangeCircle } from "react-icons/md";
