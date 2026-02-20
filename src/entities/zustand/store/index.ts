@@ -1,4 +1,3 @@
-import { FSD } from "@/shared/types/types";
 import { create } from "zustand";
 
 interface FsdState {

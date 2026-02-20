@@ -1,29 +1,32 @@
-// entities/requests/types.ts
-export namespace FSD {
-  export type GetRes = {
-    success: boolean;
-    current_page: number;
-    per_page: number;
-    total_pages: number;
-    total_items: number;
-    data: FSDItem[]; // конкретизируем элементы
-  };
+declare global {
+  namespace FSD {
+    type GetRes = {
+      success: boolean;
+      current_page: number;
+      per_page: number;
+      total_pages: number;
+      total_items: number;
+      data: FSDItem[];
+    };
 
-  export type GetReq = void;
+    type GetReq = void;
 
-  export type FSDItem = {
-    _id: string;
-    name: string;
-    description: string;
-  };
+    interface FSDItem {
+      _id: string;
+      name: string;
+      description: string;
+    }
 
-  export type PostReq = {
-    name: string;
-    description: string;
-  };
+    type PostReq = {
+      name: string;
+      description: string;
+    };
 
-  export type PostRes = {
-    success: boolean;
-    data: FSDItem;
-  };
+    type PostRes = {
+      success: boolean;
+      data: FSDItem;
+    };
+  }
 }
+
+export {};

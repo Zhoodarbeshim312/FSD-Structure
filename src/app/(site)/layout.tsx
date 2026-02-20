@@ -1,3 +1,4 @@
+"use client";
 import { LayoutSite } from "@/widgets/layout";
 import { FC, ReactNode } from "react";
 

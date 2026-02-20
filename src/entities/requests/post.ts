@@ -1,6 +1,5 @@
 import { useMutation, useQueryClient } from "@tanstack/react-query";
 import { useFsdStore } from "../zustand/store";
-import { FSD } from "@/shared/types/types";
 import { api } from "@/shared/api/base";
 export const useCreateFsd = () => {
   const queryClient = useQueryClient();

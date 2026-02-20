@@ -3,7 +3,6 @@ import { FC } from "react";
 import scss from "./Card.module.scss";
 import { MdOutlineChangeCircle } from "react-icons/md";
 import { TiDeleteOutline } from "react-icons/ti";
-import { FSD } from "@/shared/types/types";
 import { useDeleteFsd } from "@/entities/requests/delete";
 import { useUpdateFsd } from "@/entities/requests/patch";
 interface CardProps {

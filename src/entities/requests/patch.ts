@@ -1,6 +1,5 @@
 import { useMutation, useQueryClient } from "@tanstack/react-query";
 import { api } from "@/shared/api/base";
-import { FSD } from "@/shared/types/types";
 export const useUpdateFsd = () => {
   const queryClient = useQueryClient();
   return useMutation<FSD.FSDItem, Error, FSD.FSDItem>({
